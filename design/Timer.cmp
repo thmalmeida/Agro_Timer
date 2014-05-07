@@ -1,0 +1,213 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 29/04/2013 21:12:09
+
+BeginCmp
+TimeStamp = /517EDD87;
+Reference = 3v3_Reg1;
+ValeurCmp = AMS1117_REGULATOR;
+IdModule  = SOT223_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /517EDFCD;
+Reference = 10u1;
+ValeurCmp = CP_MINI;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /517EDFEC;
+Reference = 330n1;
+ValeurCmp = C_MINI;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79D98;
+Reference = Conector1;
+ValeurCmp = Supply;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179BC33;
+Reference = Conector2;
+ValeurCmp = Start;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179BC29;
+Reference = Conector3;
+ValeurCmp = Stop;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179BC56;
+Reference = Conector4;
+ValeurCmp = PushButton;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /517F0B5C;
+Reference = Conn3_mini1;
+ValeurCmp = CONN3_MINI;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179C438;
+Reference = Connector1;
+ValeurCmp = TX_CONN;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179C431;
+Reference = Connector2;
+ValeurCmp = RX_CONN;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79B11;
+Reference = D1;
+ValeurCmp = D_LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79C86;
+Reference = D2;
+ValeurCmp = D_LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C792BB;
+Reference = Diac1;
+ValeurCmp = OPTOCOUPLER;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179B63E;
+Reference = Diac2;
+ValeurCmp = OPTOCOUPLER;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79927;
+Reference = IC1;
+ValeurCmp = ATMEGA8-TQFP32;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79949;
+Reference = R1;
+ValeurCmp = R_MINI;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /51210D2E;
+Reference = R2;
+ValeurCmp = 680;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179B63C;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /51210D3B;
+Reference = R4;
+ValeurCmp = 8k2;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C792BE;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /51210D3D;
+Reference = R6;
+ValeurCmp = 1k5;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179B63D;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C792BD;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79B16;
+Reference = R11;
+ValeurCmp = R_MINI;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79ACA;
+Reference = R13;
+ValeurCmp = 680;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79C87;
+Reference = R14;
+ValeurCmp = 680;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C79625;
+Reference = T1;
+ValeurCmp = TRIAC_BT136;
+IdModule  = TO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5179B63A;
+Reference = T2;
+ValeurCmp = TRIAC_BT136;
+IdModule  = TO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C78889;
+Reference = U1;
+ValeurCmp = ICSP_SPI_6PIN;
+IdModule  = pin_array_3x2_ICSP_ISP;
+EndCmp
+
+BeginCmp
+TimeStamp = /5120D10C;
+Reference = U3;
+ValeurCmp = LCD;
+IdModule  = SIL-16_thma;
+EndCmp
+
+EndListe

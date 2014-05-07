@@ -1,0 +1,1735 @@
+Archive member included because of file (symbol)
+
+C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+                              ./LiquidCrystal.o (Print::write(unsigned char const*, unsigned int))
+C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (String::operator[](unsigned int) const)
+C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (free)
+C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__cxa_pure_virtual)
+C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                              ./LiquidCrystal.o (delayMicroseconds)
+C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+                              ./LiquidCrystal.o (pinMode)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__udivmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+                              ./LiquidCrystal.o (__do_copy_data)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+                              ./main.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+                              ./main.o (__do_global_ctors)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__fixunssfsi)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__subsf3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__mulsf3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__divsf3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__gtsf2)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__ltsf2)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__lesf2)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__unordsf2)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__floatsisf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__fixsfsi)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o) (__floatunsisf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_tablejump.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o) (__tablejump__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o) (__clzsi2)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o) (__pack_f)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o) (__clz_tab)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(atol.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (atol)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(isspace.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (isspace)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(tolower.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (tolower)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(toupper.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (toupper)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memcpy.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (memcpy)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memmove.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (memmove)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strchr.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (strchr)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcmp.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (strcmp)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcpy.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (strcpy)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncmp.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (strncmp)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncpy.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (strncpy)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrchr.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (strrchr)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strstr.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (strstr)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (itoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ltoa.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (ltoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(mulsi10.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(atol.o) (__mulsi_const_10)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (ultoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(utoa.o)
+                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o) (utoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+                              ./main.o (sprintf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o) (vfprintf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(cty_isfalse.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(isspace.o) (__ctype_isfalse)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrev.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o) (strrev)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o) (fputc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o) (__udivmodhi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+__flp               0x2               C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+ .text          0x00000000        0x0 ./LiquidCrystal.o
+ .data          0x00000000        0x0 ./LiquidCrystal.o
+ .bss           0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal10createCharEhPh
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal12noAutoscrollEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal10autoscrollEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal11rightToLeftEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal11leftToRightEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal18scrollDisplayRightEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal17scrollDisplayLeftEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal5blinkEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal7noBlinkEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal6cursorEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal8noCursorEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal9noDisplayEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystal4homeEv
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystalC2Ehhhhhh
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystalC1Ehhhhhhh
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystalC2Ehhhhhhh
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystalC1Ehhhhhhhhhh
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystalC2Ehhhhhhhhhh
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystalC1Ehhhhhhhhhhh
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text._ZN13LiquidCrystalC2Ehhhhhhhhhhh
+                0x00000000        0x0 ./LiquidCrystal.o
+ .text          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text._Z10led_red_onv
+                0x00000000        0x0 ./main.o
+ .text._Z11led_red_offv
+                0x00000000        0x0 ./main.o
+ .text._Z12led_green_onv
+                0x00000000        0x0 ./main.o
+ .text._Z13led_green_offv
+                0x00000000        0x0 ./main.o
+ .text._Z13timer1_enablev
+                0x00000000        0x0 ./main.o
+ .text._Z14timer1_disablev
+                0x00000000        0x0 ./main.o
+ .text          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .data          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .bss           0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printEc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEv
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print11printNumberEmh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printEmi
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printEji
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printEhi
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printEli
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printEii
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEii
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnEPKc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .rodata._ZTV5Print
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .data          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .bss           0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String6charAtEj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String9setCharAtEjc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringixEj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6StringixEj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String7replaceEcc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String5toIntEv
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String4trimEv
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String11toUpperCaseEv
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String11toLowerCaseEv
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String7indexOfERKS_j
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String7indexOfERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String11lastIndexOfEcj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String11lastIndexOfEc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String7indexOfEcj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String7indexOfEc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String8getBytesEPhjj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String8endsWithERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String6equalsEPKc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String9compareToERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6StringgeERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6StringleERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6StringgtERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6StringltERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String6equalsERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String10startsWithERKS_j
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String10startsWithERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String12changeBufferEj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String7replaceERKS_S1_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String7reserveEj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatEPKcj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatEm
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatEl
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatEj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatEi
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatEh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatEc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatEPKc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String6concatERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String10invalidateEv
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZplRK15StringSumHelperm
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZplRK15StringSumHelperl
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZplRK15StringSumHelperj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZplRK15StringSumHelperi
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZplRK15StringSumHelperh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZplRK15StringSumHelperc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZplRK15StringSumHelperPKc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZplRK15StringSumHelperRK6String
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6String4copyEPKcj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC1EPKc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC2EPKc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringaSEPKc
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC1Emh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC2Emh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC1Elh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC2Elh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC1Ejh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC2Ejh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC1Eih
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC2Eih
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC1Ehh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC2Ehh
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC1Ec
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC2Ec
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String9substringEjj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZNK6String9substringEj
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringaSERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC1ERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringC2ERKS_
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringD1Ev
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text._ZN6StringD2Ev
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+ .text          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ .data          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ .bss           0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ .text.malloc   0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ .text.free     0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ .text.realloc  0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ .data.__brkval
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ .data.__brkval_maximum
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ COMMON         0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+ .text          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .data          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .bss           0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text.__cxa_guard_acquire
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text.__cxa_guard_release
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text.__cxa_guard_abort
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text._ZdaPv   0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text._ZdlPv   0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text._Znaj    0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text._Znwj    0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+ .text          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+ .data          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+ .bss           0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+ .text.millis   0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+ .text.micros   0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+ .text.delay    0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+ .text          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+ .data          0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+ .bss           0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+ .text.digitalRead
+                0x00000000        0x0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_tablejump.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_tablejump.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(atol.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(atol.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(atol.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(atol.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(isspace.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(isspace.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(isspace.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(isspace.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(tolower.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(tolower.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(tolower.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(tolower.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(toupper.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(toupper.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(toupper.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(toupper.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memcpy.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memcpy.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memcpy.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memmove.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memmove.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memmove.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memmove.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strchr.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strchr.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strchr.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strchr.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcmp.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcmp.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcmp.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcmp.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcpy.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcpy.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcpy.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcpy.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncmp.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncmp.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncmp.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncmp.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncpy.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncpy.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncpy.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncpy.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrchr.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrchr.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrchr.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrchr.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strstr.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strstr.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strstr.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strstr.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ltoa.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ltoa.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ltoa.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ltoa.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(mulsi10.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(mulsi10.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(mulsi10.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(mulsi10.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(utoa.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(utoa.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(utoa.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(utoa.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(cty_isfalse.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrev.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrev.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrev.o)
+ .text.avr-libc
+                0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrev.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+LOAD ./LiquidCrystal.o
+LOAD ./main.o
+LOAD C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libm.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xf96
+ *(.vectors)
+ .vectors       0x00000000       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000026       0x5e C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+                0x00000026                port_to_mode_PGM
+                0x00000044                digital_pin_to_port_PGM
+                0x0000005a                digital_pin_to_bit_mask_PGM
+                0x00000030                port_to_output_PGM
+                0x0000003a                port_to_input_PGM
+                0x00000070                digital_pin_to_timer_PGM
+                0x00000084                . = ALIGN (0x2)
+                0x00000084                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000084        0x0 linker stubs
+ *(.trampolines*)
+                0x00000084                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000084                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000084        0x2 ./main.o
+                0x00000086                __ctors_end = .
+                0x00000086                __dtors_start = .
+ *(.dtors)
+                0x00000086                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000086        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+                0x00000086                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000086        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000092       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+                0x00000092                __do_copy_data
+ .init4         0x000000a8       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+                0x000000a8                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x000000b8       0x14 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+                0x000000b8                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000cc        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+ *(.init9)
+ *(.text)
+ .text          0x000000d0        0x2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+                0x000000d0                __vector_1
+                0x000000d0                __vector_12
+                0x000000d0                __bad_interrupt
+                0x000000d0                __vector_6
+                0x000000d0                __vector_3
+                0x000000d0                __vector_11
+                0x000000d0                __vector_13
+                0x000000d0                __vector_17
+                0x000000d0                __vector_7
+                0x000000d0                __vector_5
+                0x000000d0                __vector_4
+                0x000000d0                __vector_2
+                0x000000d0                __vector_15
+                0x000000d0                __vector_14
+                0x000000d0                __vector_10
+                0x000000d0                __vector_16
+                0x000000d0                __vector_18
+                0x000000d2                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN13LiquidCrystal11pulseEnableEv
+                0x000000d2       0x36 ./LiquidCrystal.o
+                0x000000d2                LiquidCrystal::pulseEnable()
+ .text._ZN13LiquidCrystal10write8bitsEh
+                0x00000108       0x66 ./LiquidCrystal.o
+                0x00000108                LiquidCrystal::write8bits(unsigned char)
+ .text._ZN13LiquidCrystal10write4bitsEh
+                0x0000016e       0x66 ./LiquidCrystal.o
+                0x0000016e                LiquidCrystal::write4bits(unsigned char)
+ .text._ZN13LiquidCrystal4sendEhh
+                0x000001d4       0x48 ./LiquidCrystal.o
+                0x000001d4                LiquidCrystal::send(unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal5writeEh
+                0x0000021c        0xa ./LiquidCrystal.o
+                0x0000021c                LiquidCrystal::write(unsigned char)
+ .text._ZN13LiquidCrystal7commandEh
+                0x00000226        0x6 ./LiquidCrystal.o
+                0x00000226                LiquidCrystal::command(unsigned char)
+ .text._ZN13LiquidCrystal7displayEv
+                0x0000022c       0x12 ./LiquidCrystal.o
+                0x0000022c                LiquidCrystal::display()
+ .text._ZN13LiquidCrystal9setCursorEhh
+                0x0000023e       0x5c ./LiquidCrystal.o
+                0x0000023e                LiquidCrystal::setCursor(unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal5clearEv
+                0x0000029a        0xc ./LiquidCrystal.o
+                0x0000029a                LiquidCrystal::clear()
+ .text._ZN13LiquidCrystal5beginEhhh
+                0x000002a6       0xb6 ./LiquidCrystal.o
+                0x000002a6                LiquidCrystal::begin(unsigned char, unsigned char, unsigned char)
+ .text._ZN13LiquidCrystal4initEhhhhhhhhhhhh
+                0x0000035c       0x86 ./LiquidCrystal.o
+                0x0000035c                LiquidCrystal::init(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._ZN13LiquidCrystalC1Ehhhhhh
+                0x000003e2       0x70 ./LiquidCrystal.o
+                0x000003e2                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+ .text._Z17button_is_pressedv
+                0x00000452       0x2c ./main.o
+                0x00000452                button_is_pressed()
+ .text._Z7turn_onv
+                0x0000047e       0x26 ./main.o
+                0x0000047e                turn_on()
+ .text._Z8turn_offv
+                0x000004a4       0x20 ./main.o
+                0x000004a4                turn_off()
+ .text._Z8init_allv
+                0x000004c4       0x52 ./main.o
+                0x000004c4                init_all()
+ .text.__vector_8
+                0x00000516       0xb0 ./main.o
+                0x00000516                __vector_8
+ .text._GLOBAL__I_timeWorkingSet
+                0x000005c6       0x24 ./main.o
+ .text._Z7summaryv
+                0x000005ea       0xd0 ./main.o
+                0x000005ea                summary()
+ .text.main     0x000006ba       0xb0 ./main.o
+                0x000006ba                main
+ .text._ZN5Print5writeEPKhj
+                0x0000076a       0x54 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+                0x0000076a                Print::write(unsigned char const*, unsigned int)
+ .text._ZN5Print5writeEPKc
+                0x000007be       0x38 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+                0x000007be                Print::write(char const*)
+ .text._ZN5Print5printEPKc
+                0x000007f6        0x4 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+                0x000007f6                Print::print(char const*)
+ .text.__vector_9
+                0x000007fa       0xa8 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                0x000007fa                __vector_9
+ .text.delayMicroseconds
+                0x000008a2       0x14 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                0x000008a2                delayMicroseconds
+ .text.init     0x000008b6       0x40 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                0x000008b6                init
+ .text.pinMode  0x000008f6       0x7e C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+                0x000008f6                pinMode
+ .text.turnOffPWM
+                0x00000974       0x22 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+ .text.digitalWrite
+                0x00000996       0x64 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+                0x00000996                digitalWrite
+ .text.libgcc   0x000009fa       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+                0x000009fa                __prologue_saves__
+ .text.libgcc   0x00000a32       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                0x00000a32                __epilogue_restores__
+ .text.libgcc   0x00000a68        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_tablejump.o)
+                0x00000a6c                __tablejump__
+                0x00000a68                __tablejump2__
+ .text.avr-libc
+                0x00000a74       0x42 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+                0x00000a74                sprintf
+ .text.avr-libc
+                0x00000ab6      0x39c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+                0x00000ab6                vfprintf
+ .text.avr-libc
+                0x00000e52       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+                0x00000e52                strnlen_P
+ .text.avr-libc
+                0x00000e68       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+                0x00000e68                strnlen
+ .text.avr-libc
+                0x00000e7e       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+                0x00000e7e                fputc
+ .text.avr-libc
+                0x00000ed6       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+                0x00000ed6                __ultoa_invert
+                0x00000f92                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000f92        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+                0x00000f92                exit
+                0x00000f92                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000f92        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000f96                _etext = .
+
+.data           0x00800060       0x40 load address 0x00000f96
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060       0x2a ./main.o
+ *(.data*)
+ .data.timeWorkingSet
+                0x0080008a        0x2 ./main.o
+                0x0080008a                timeWorkingSet
+ .data.timeWaitingSet
+                0x0080008c        0x2 ./main.o
+                0x0080008c                timeWaitingSet
+ .data.state    0x0080008e        0x1 ./main.o
+                0x0080008e                state
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZTV13LiquidCrystal
+                0x0080008f        0x8 ./LiquidCrystal.o
+                0x0080008f                vtable for LiquidCrystal
+ .rodata._ZZN13LiquidCrystal9setCursorEhhE3C.1
+                0x00800097        0x8 ./LiquidCrystal.o
+ *(.gnu.linkonce.d*)
+                0x008000a0                . = ALIGN (0x2)
+ *fill*         0x0080009f        0x1 00
+                0x008000a0                _edata = .
+                0x008000a0                PROVIDE (__data_end, .)
+
+.bss            0x008000a0       0x28
+                0x008000a0                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.lcd       0x008000a0       0x15 ./main.o
+                0x008000a0                lcd
+ .bss._ZL14flag_timeOver2
+                0x008000b5        0x1 ./main.o
+ .bss._ZL7minutes
+                0x008000b6        0x2 ./main.o
+ .bss._ZL8minutes2
+                0x008000b8        0x2 ./main.o
+ .bss._ZL7seconds
+                0x008000ba        0x1 ./main.o
+ .bss._ZL8seconds2
+                0x008000bb        0x1 ./main.o
+ .bss._ZL15flag_decreasing
+                0x008000bc        0x1 ./main.o
+ .bss._ZL14flag_timeOver1
+                0x008000bd        0x1 ./main.o
+ .bss._ZL11flag_status
+                0x008000be        0x1 ./main.o
+ .bss.timer0_overflow_count
+                0x008000bf        0x4 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                0x008000bf                timer0_overflow_count
+ .bss.timer0_millis
+                0x008000c3        0x4 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                0x008000c3                timer0_millis
+ .bss.timer0_fract
+                0x008000c7        0x1 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+ *(COMMON)
+                0x008000c8                PROVIDE (__bss_end, .)
+                0x00000f96                __data_load_start = LOADADDR (.data)
+                0x00000fd6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000c8        0x0
+                0x008000c8                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008000c8                PROVIDE (__noinit_end, .)
+                0x008000c8                _end = .
+                0x008000c8                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x3120
+ *(.stab)
+ .stab          0x00000000      0xc78 ./LiquidCrystal.o
+                               0x16c8 (size before relaxing)
+ .stab          0x00000c78      0xb04 ./main.o
+                                0xc6c (size before relaxing)
+ .stab          0x0000177c      0x5a0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+                               0x1020 (size before relaxing)
+ .stab          0x00001d1c      0x3fc C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+                               0x2214 (size before relaxing)
+ .stab          0x00002118      0x318 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+                                0x900 (size before relaxing)
+ .stab          0x00002430      0x1c8 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+                                0x378 (size before relaxing)
+ .stab          0x000025f8      0x5a0 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                                0x948 (size before relaxing)
+ .stab          0x00002b98      0x588 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+                                0xad4 (size before relaxing)
+
+.stabstr        0x00000000     0x430f
+ *(.stabstr)
+ .stabstr       0x00000000     0x430f ./LiquidCrystal.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x200
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x00000080       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x000000a0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x000000e0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .debug_aranges
+                0x00000100       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .debug_aranges
+                0x00000120       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .debug_aranges
+                0x00000140       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x00000160       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x00000180       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x000001a0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x000001c0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x000001e0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x253
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .debug_pubnames
+                0x0000008d       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x000000ab       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x000000c9       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x000000e7       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .debug_pubnames
+                0x00000105       0x21 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .debug_pubnames
+                0x00000126       0x22 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .debug_pubnames
+                0x00000148       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x00000168       0x22 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x0000018a       0x24 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .debug_pubnames
+                0x000001ae       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .debug_pubnames
+                0x000001cd       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x000001ec       0x21 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x0000020d       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_pubnames
+                0x00000233       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x2b10
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x3fc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .debug_info    0x00000dac      0x27f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .debug_info    0x0000102b      0x27f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .debug_info    0x000012aa      0x27f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .debug_info    0x00001529      0x27f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .debug_info    0x000017a8      0x27f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .debug_info    0x00001a27      0x207 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .debug_info    0x00001c2e      0x2b0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .debug_info    0x00001ede      0x12c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+ .debug_info    0x0000200a      0x206 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x00002210      0x117 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .debug_info    0x00002327      0x2df c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .debug_info    0x00002606      0x251 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00002857      0x210 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x00002a67       0xa9 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1782
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x216 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00000678      0x15a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000007d2      0x15a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x0000092c      0x15a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000a86      0x15a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .debug_abbrev  0x00000be0      0x15a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .debug_abbrev  0x00000d3a      0x148 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .debug_abbrev  0x00000e82      0x17f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x00001001       0xad c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x000010ae      0x157 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x00001205       0xc4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x000012c9      0x1c0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00001489      0x154 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x000015dd      0x13b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x00001718       0x6a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+
+.debug_line     0x00000000     0x14a9
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f      0x1d5 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .debug_line    0x00000764       0xd3 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .debug_line    0x00000837       0xd3 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .debug_line    0x0000090a       0xd3 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .debug_line    0x000009dd       0xd3 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .debug_line    0x00000ab0       0xcb c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .debug_line    0x00000b7b      0x135 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .debug_line    0x00000cb0      0x109 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000db9       0x90 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+ .debug_line    0x00000e49      0x133 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x00000f7c       0xa5 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .debug_line    0x00001021      0x18a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .debug_line    0x000011ab      0x14b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .debug_line    0x000012f6      0x137 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x0000142d       0x7c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000      0x220
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .debug_frame   0x000000a0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000000c0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000e0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .debug_frame   0x00000100       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .debug_frame   0x00000120       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .debug_frame   0x00000140       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .debug_frame   0x00000160       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000180       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x000001a0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .debug_frame   0x000001c0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .debug_frame   0x000001e0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000200       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x31a
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233       0x35 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x00000268        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000270        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000278        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000280        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000288        0xb c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+                                0x198 (size before relaxing)
+ .debug_str     0x00000293       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+                                0x17b (size before relaxing)
+ .debug_str     0x000002b1        0xa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+ .debug_str     0x000002bb       0x14 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x000002cf       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+                                0x111 (size before relaxing)
+ .debug_str     0x000002ef       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x000002ff        0xb c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x0000030a       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+ .debug_str     0x00000000       0xf4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000      0xa92
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0xc0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+ .debug_loc     0x00000522       0x3c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+ .debug_loc     0x0000055e       0x3c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000059a       0x3c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+ .debug_loc     0x000005d6       0x3c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+ .debug_loc     0x00000612       0x3c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+ .debug_loc     0x0000064e       0xac c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+ .debug_loc     0x000006fa       0x7e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00000778       0x4c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x000007c4       0x94 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+ .debug_loc     0x00000858      0x13e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+ .debug_loc     0x00000996       0xac c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x00000a42       0x50 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Timer.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+
+Cross Reference Table
+
+Symbol                                            File
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+                                                  ./main.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::autoscroll()                       ./LiquidCrystal.o
+LiquidCrystal::begin(unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+                                                  ./main.o
+LiquidCrystal::blink()                            ./LiquidCrystal.o
+LiquidCrystal::clear()                            ./LiquidCrystal.o
+LiquidCrystal::command(unsigned char)             ./LiquidCrystal.o
+LiquidCrystal::createChar(unsigned char, unsigned char*) ./LiquidCrystal.o
+LiquidCrystal::cursor()                           ./LiquidCrystal.o
+LiquidCrystal::display()                          ./LiquidCrystal.o
+LiquidCrystal::home()                             ./LiquidCrystal.o
+LiquidCrystal::init(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::leftToRight()                      ./LiquidCrystal.o
+LiquidCrystal::noAutoscroll()                     ./LiquidCrystal.o
+LiquidCrystal::noBlink()                          ./LiquidCrystal.o
+LiquidCrystal::noCursor()                         ./LiquidCrystal.o
+LiquidCrystal::noDisplay()                        ./LiquidCrystal.o
+LiquidCrystal::pulseEnable()                      ./LiquidCrystal.o
+LiquidCrystal::rightToLeft()                      ./LiquidCrystal.o
+LiquidCrystal::scrollDisplayLeft()                ./LiquidCrystal.o
+LiquidCrystal::scrollDisplayRight()               ./LiquidCrystal.o
+LiquidCrystal::send(unsigned char, unsigned char) ./LiquidCrystal.o
+LiquidCrystal::setCursor(unsigned char, unsigned char) ./LiquidCrystal.o
+                                                  ./main.o
+LiquidCrystal::write(unsigned char)               ./LiquidCrystal.o
+LiquidCrystal::write4bits(unsigned char)          ./LiquidCrystal.o
+LiquidCrystal::write8bits(unsigned char)          ./LiquidCrystal.o
+Print::print(Printable const&)                    C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(String const&)                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(__FlashStringHelper const*)          C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(char const*)                         C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+                                                  ./main.o
+Print::print(char)                                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(double, int)                         C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(int, int)                            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(long, int)                           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(unsigned char, int)                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(unsigned int, int)                   C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::print(unsigned long, int)                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::printFloat(double, unsigned char)          C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::printNumber(unsigned long, unsigned char)  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println()                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(Printable const&)                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(String const&)                     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(__FlashStringHelper const*)        C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(char const*)                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(char)                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(double, int)                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(int, int)                          C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(long, int)                         C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(unsigned char, int)                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(unsigned int, int)                 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::println(unsigned long, int)                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::write(char const*)                         C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+Print::write(unsigned char const*, unsigned int)  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+                                                  ./LiquidCrystal.o
+String::String(String const&)                     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(String const&)                     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(char const*)                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(char const*)                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(char)                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(char)                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(int, unsigned char)                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(int, unsigned char)                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(long, unsigned char)               C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(long, unsigned char)               C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(unsigned char, unsigned char)      C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(unsigned char, unsigned char)      C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(unsigned int, unsigned char)       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(unsigned int, unsigned char)       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(unsigned long, unsigned char)      C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::String(unsigned long, unsigned char)      C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::changeBuffer(unsigned int)                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::charAt(unsigned int) const                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::compareTo(String const&) const            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(String const&)                     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(char const*)                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(char const*, unsigned int)         C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(char)                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(int)                               C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(long)                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(unsigned char)                     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(unsigned int)                      C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::concat(unsigned long)                     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::copy(char const*, unsigned int)           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::endsWith(String const&) const             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::equals(String const&) const               C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::equals(char const*) const                 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::equalsIgnoreCase(String const&) const     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::getBytes(unsigned char*, unsigned int, unsigned int) const C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::indexOf(String const&) const              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::indexOf(String const&, unsigned int) const C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::indexOf(char) const                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::indexOf(char, unsigned int) const         C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::invalidate()                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::lastIndexOf(String const&) const          C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::lastIndexOf(String const&, unsigned int) const C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::lastIndexOf(char) const                   C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::lastIndexOf(char, unsigned int) const     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::operator<(String const&) const            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::operator<=(String const&) const           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::operator=(String const&)                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::operator=(char const*)                    C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::operator>(String const&) const            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::operator>=(String const&) const           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::operator[](unsigned int)                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::operator[](unsigned int) const            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+String::replace(String const&, String const&)     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::replace(char, char)                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::reserve(unsigned int)                     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::setCharAt(unsigned int, char)             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::startsWith(String const&) const           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::startsWith(String const&, unsigned int) const C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::substring(unsigned int) const             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::substring(unsigned int, unsigned int) const C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::toInt() const                             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::toLowerCase()                             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::toUpperCase()                             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::trim()                                    C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::~String()                                 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+String::~String()                                 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+__addsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__bad_interrupt                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__brkval                                          C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+__brkval_maximum                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+__bss_end                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+__clz_tab                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+__clzsi2                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clzsi2.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+__ctors_end                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+__ctors_start                                     c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+__ctype_isfalse                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(cty_isfalse.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(isspace.o)
+__ctype_istrue                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(cty_isfalse.o)
+__cxa_guard_abort                                 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+__cxa_guard_acquire                               C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+__cxa_guard_release                               C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+__cxa_pure_virtual                                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__data_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+__data_start                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+__divsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__do_clear_bss                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+                                                  ./main.o
+__do_copy_data                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clz.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+                                                  ./main.o
+                                                  ./LiquidCrystal.o
+__do_global_ctors                                 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+                                                  ./main.o
+__epilogue_restores__                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+__fixsfsi                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__fixunssfsi                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__floatsisf                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__floatunsisf                                     c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__flp                                             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+__fpcmp_parts_f                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fpcmp_parts_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+__gesf2                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+__gtsf2                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__heap_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__heap_start                                      C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+__init                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__lesf2                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__ltsf2                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__mulsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__mulsi3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__mulsi_const_10                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(mulsi10.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(atol.o)
+__pack_f                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_pack_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+__prologue_saves__                                c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_usi_to_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_si_to_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+__stack                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__subsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_fixunssfsi.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__tablejump2__                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_tablejump.o)
+__tablejump__                                     c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_tablejump.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ctors.o)
+__thenan_sf                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_thenan_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+__udivmodhi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(utoa.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o)
+__udivmodsi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ltoa.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__ultoa_invert                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa_invert.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+__unordsf2                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)
+__unpack_f                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unpack_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_sf_to_si.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_unord_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_le_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_lt_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_gt_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_div_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_addsub_sf.o)
+__vector_1                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_10                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_11                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_12                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_13                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_14                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_15                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_16                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_17                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_18                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_2                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_3                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_4                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_5                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_6                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_7                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_8                                        ./main.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_9                                        C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vector_default                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+__vectors                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+_exit                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+atol                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(atol.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+button_is_pressed()                               ./main.o
+delay                                             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+delayMicroseconds                                 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                                                  ./LiquidCrystal.o
+digitalRead                                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+digitalWrite                                      C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+                                                  ./LiquidCrystal.o
+digital_pin_to_bit_mask_PGM                       C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+digital_pin_to_port_PGM                           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+digital_pin_to_timer_PGM                          C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+exit                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+fputc                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(fputc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+free                                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+init                                              C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+                                                  ./main.o
+init_all()                                        ./main.o
+isspace                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(isspace.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+itoa                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+lcd                                               ./main.o
+led_green_off()                                   ./main.o
+led_green_on()                                    ./main.o
+led_red_off()                                     ./main.o
+led_red_on()                                      ./main.o
+ltoa                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ltoa.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+main                                              ./main.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
+malloc                                            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+memcpy                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memcpy.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memmove.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+memmove                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(memmove.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+micros                                            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+millis                                            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+operator delete(void*)                            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+operator delete[](void*)                          C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+operator new(unsigned int)                        C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+operator new[](unsigned int)                      C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(new.o)
+operator+(StringSumHelper const&, String const&)  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+operator+(StringSumHelper const&, char const*)    C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+operator+(StringSumHelper const&, char)           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+operator+(StringSumHelper const&, int)            C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+operator+(StringSumHelper const&, long)           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+operator+(StringSumHelper const&, unsigned char)  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+operator+(StringSumHelper const&, unsigned int)   C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+operator+(StringSumHelper const&, unsigned long)  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+pinMode                                           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+                                                  ./LiquidCrystal.o
+port_to_input_PGM                                 C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+port_to_mode_PGM                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+port_to_output_PGM                                C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring_digital.o)
+realloc                                           C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(malloc.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+sprintf                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+                                                  ./main.o
+state                                             ./main.o
+strchr                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strchr.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+strcmp                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcmp.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+strcpy                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strcpy.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+strncmp                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncmp.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+strncpy                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strncpy.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+strnlen                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+strnlen_P                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strnlen_P.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+strrchr                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrchr.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+strrev                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strrev.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(utoa.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ltoa.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(itoa.o)
+strstr                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(strstr.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+summary()                                         ./main.o
+timeWaitingSet                                    ./main.o
+timeWorkingSet                                    ./main.o
+timer0_millis                                     C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+timer0_overflow_count                             C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(wiring.o)
+timer1_disable()                                  ./main.o
+timer1_enable()                                   ./main.o
+tolower                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(tolower.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+toupper                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(toupper.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+turn_off()                                        ./main.o
+turn_on()                                         ./main.o
+ultoa                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(ultoa.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+utoa                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(utoa.o)
+                                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(WString.o)
+vfprintf                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(vfprintf_std.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(sprintf.o)
+vtable for LiquidCrystal                          ./LiquidCrystal.o
+vtable for Print                                  C:\Users\Thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz\libarduino_core.a(Print.o)

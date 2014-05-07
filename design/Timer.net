@@ -1,0 +1,356 @@
+# EESchema Netlist Version 1.1 created  01/05/2013 15:46:15
+(
+ ( /517F0B5C $noname  Conn3_mini1 CONN3_MINI {Lib=CONN3_MINI}
+  (    1 +5V )
+  (    2 /Vp )
+  (    3 +3V3 )
+ )
+ ( /517EDFEC $noname  330n1 C_MINI {Lib=C_MINI}
+  (    1 +3V3 )
+  (    2 GND1 )
+ )
+ ( /517EDFCD $noname  10u1 CP_MINI {Lib=CP_MINI}
+  (    1 GND1 )
+  (    2 +5V )
+ )
+ ( /517EDD87 $noname  3v3_Reg1 AMS1117_REGULATOR {Lib=AMS1117_REGULATOR}
+  (    1 GND1 )
+  (    2 +3V3 )
+  (    3 +5V )
+ )
+ ( /5179C438 $noname  Connector1 TX_CONN {Lib=TX_CONN}
+  (    1 /PD1 )
+  (    2 /Vp )
+  (    3 GND1 )
+ )
+ ( /5179C431 $noname  Connector2 RX_CONN {Lib=RX_CONN}
+  (    1 /Vp )
+  (    2 /PD0 )
+  (    3 /PD0 )
+  (    4 GND1 )
+ )
+ ( /5179BC56 $noname  Conector4 PushButton {Lib=CONECTOR_2}
+  (    1 /PD2 )
+  (    2 GND1 )
+ )
+ ( /5179BC33 $noname  Conector2 Start {Lib=CONECTOR_2}
+  (    1 /A1 )
+  (    2 /13_NO )
+ )
+ ( /5179BC29 $noname  Conector3 Stop {Lib=CONECTOR_2}
+  (    1 /5_L3 )
+  (    2 /95_NC )
+ )
+ ( /5179B63E $noname  Diac2 OPTOCOUPLER {Lib=OPTOCOUPLER}
+  (    1 N-000042 )
+  (    2 GND1 )
+  (    4 N-000043 )
+  (    6 N-000007 )
+ )
+ ( /5179B63D $noname  R7 1k {Lib=R_MINI}
+  (    1 /5_L3 )
+  (    2 N-000043 )
+ )
+ ( /5179B63C $noname  R3 1k {Lib=R_MINI}
+  (    1 N-000042 )
+  (    2 /PD4 )
+ )
+ ( /5179B63A $noname  T2 TRIAC_BT136 {Lib=TRIAC_P}
+  (    1 /95_NC )
+  (    2 /5_L3 )
+  (    3 N-000007 )
+ )
+ ( /51210D3D $noname  R6 1k5 {Lib=R_MINI}
+  (    1 N-000016 )
+  (    2 GND1 )
+ )
+ ( /51210D3B $noname  R4 8k2 {Lib=R_MINI}
+  (    1 +3V3 )
+  (    2 N-000016 )
+ )
+ ( /51210D2E $noname  R2 680 {Lib=R_MINI}
+  (    1 N-000002 )
+  (    2 +3V3 )
+ )
+ ( /5120D10C $noname  U3 LCD {Lib=LCD}
+  (    1 GND1 )
+  (    2 +3V3 )
+  (    3 N-000016 )
+  (    4 /PC5 )
+  (    5 GND1 )
+  (    6 /PC4 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 /PC3 )
+  (   12 /PC2 )
+  (   13 /PC1 )
+  (   14 /PC0 )
+  (   15 N-000002 )
+  (   16 GND1 )
+ )
+ ( /50C79D98 $noname  Conector1 Supply {Lib=CONECTOR_2}
+  (    1 /Vp )
+  (    2 GND1 )
+ )
+ ( /50C79C87 $noname  R14 680 {Lib=R_MINI}
+  (    1 /PB1 )
+  (    2 N-000001 )
+ )
+ ( /50C79C86 $noname  D2 D_LED {Lib=D_LED}
+  (    1 GND1 )
+  (    2 N-000001 )
+ )
+ ( /50C79B16 $noname  R11 R_MINI {Lib=R_MINI}
+  (    1 +3V3 )
+  (    2 /PD2 )
+ )
+ ( /50C79B11 $noname  D1 D_LED {Lib=D_LED}
+  (    1 GND1 )
+  (    2 N-000003 )
+ )
+ ( /50C79ACA $noname  R13 680 {Lib=R_MINI}
+  (    1 /PB2 )
+  (    2 N-000003 )
+ )
+ ( /50C79949 $noname  R1 R_MINI {Lib=R_MINI}
+  (    1 +3V3 )
+  (    2 /RST )
+ )
+ ( /50C79927 $noname  IC1 ATMEGA8-TQFP32 {Lib=ATMEGA8-TQFP32}
+  (    1 /PD3 )
+  (    2 /PD4 )
+  (    3 GND1 )
+  (    4 +3V3 )
+  (    5 GND1 )
+  (    6 +3V3 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 /PB1 )
+  (   14 /PB2 )
+  (   15 /MOSI )
+  (   16 /MISO )
+  (   17 /SCK )
+  (   18 +3V3 )
+  (   19 ? )
+  (   20 ? )
+  (   21 GND1 )
+  (   22 ? )
+  (   23 /PC0 )
+  (   24 /PC1 )
+  (   25 /PC2 )
+  (   26 /PC3 )
+  (   27 /PC4 )
+  (   28 /PC5 )
+  (   29 /RST )
+  (   30 /PD0 )
+  (   31 /PD1 )
+  (   32 /PD2 )
+ )
+ ( /50C79625 $noname  T1 TRIAC_BT136 {Lib=TRIAC_P}
+  (    1 /13_NO )
+  (    2 /A1 )
+  (    3 N-000021 )
+ )
+ ( /50C792BE $noname  R5 1k {Lib=R_MINI}
+  (    1 N-000025 )
+  (    2 /PD3 )
+ )
+ ( /50C792BD $noname  R8 1k {Lib=R_MINI}
+  (    1 /A1 )
+  (    2 N-000023 )
+ )
+ ( /50C792BB $noname  Diac1 OPTOCOUPLER {Lib=OPTOCOUPLER}
+  (    1 N-000025 )
+  (    2 GND1 )
+  (    4 N-000023 )
+  (    6 N-000021 )
+ )
+ ( /50C78889 $noname  U1 ICSP_SPI_6PIN {Lib=ICSP_SPI_6PIN}
+  (    1 /MISO )
+  (    2 +3V3 )
+  (    3 /SCK )
+  (    4 /MOSI )
+  (    5 /RST )
+  (    6 GND1 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component 3v3_Reg1
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$component T2
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component T1
+ D?
+ SO*
+ SM*
+ SLP1006P2
+$endlist
+$component U1
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ D2 2
+ R14 2
+Net 2 "" ""
+ R2 1
+ U3 15
+Net 3 "" ""
+ R13 2
+ D1 2
+Net 4 "GND1" "GND1"
+ U3 5
+ IC1 5
+ IC1 3
+ R6 2
+ Diac1 2
+ 3v3_Reg1 1
+ Conector4 2
+ U3 1
+ IC1 21
+ Connector2 4
+ U3 16
+ Connector1 3
+ Conector1 2
+ D2 1
+ Diac2 2
+ 10u1 1
+ U1 6
+ 330n1 2
+ D1 1
+Net 5 "/PB1" "PB1"
+ IC1 13
+ R14 1
+Net 6 "/PB2" "PB2"
+ IC1 14
+ R13 1
+Net 7 "" ""
+ T2 3
+ Diac2 6
+Net 8 "/PC5" "PC5"
+ IC1 28
+ U3 4
+Net 9 "/PC1" "PC1"
+ IC1 24
+ U3 13
+Net 10 "/PC2" "PC2"
+ IC1 25
+ U3 12
+Net 11 "/PC3" "PC3"
+ IC1 26
+ U3 11
+Net 16 "" ""
+ R6 1
+ U3 3
+ R4 2
+Net 17 "/13_NO" "13_NO"
+ T1 1
+ Conector2 2
+Net 18 "/MOSI" "MOSI"
+ U1 4
+ IC1 15
+Net 19 "/SCK" "SCK"
+ IC1 17
+ U1 3
+Net 20 "/MISO" "MISO"
+ U1 1
+ IC1 16
+Net 21 "" ""
+ T1 3
+ Diac1 6
+Net 23 "" ""
+ Diac1 4
+ R8 2
+Net 24 "/PD3" "PD3"
+ R5 2
+ IC1 1
+Net 25 "" ""
+ Diac1 1
+ R5 1
+Net 31 "/PD0" "PD0"
+ Connector2 2
+ Connector2 3
+ IC1 30
+Net 32 "/RST" "RST"
+ R1 2
+ IC1 29
+ U1 5
+Net 33 "/PC4" "PC4"
+ IC1 27
+ U3 6
+Net 34 "/PC0" "PC0"
+ U3 14
+ IC1 23
+Net 37 "/PD1" "PD1"
+ Connector1 1
+ IC1 31
+Net 39 "/5_L3" "5_L3"
+ T2 2
+ R7 1
+ Conector3 1
+Net 40 "/A1" "A1"
+ Conector2 1
+ T1 2
+ R8 1
+Net 41 "+3V3" "+3V3"
+ Conn3_mini1 3
+ 330n1 1
+ 3v3_Reg1 2
+ R2 2
+ R4 1
+ R11 1
+ U3 2
+ IC1 4
+ U1 2
+ IC1 6
+ R1 1
+ IC1 18
+Net 42 "" ""
+ Diac2 1
+ R3 1
+Net 43 "" ""
+ R7 2
+ Diac2 4
+Net 44 "/PD2" "PD2"
+ IC1 32
+ R11 2
+ Conector4 1
+Net 45 "/Vp" "Vp"
+ Conector1 1
+ Conn3_mini1 2
+ Connector1 2
+ Connector2 1
+Net 46 "/PD4" "PD4"
+ IC1 2
+ R3 2
+Net 47 "/95_NC" "95_NC"
+ T2 1
+ Conector3 2
+Net 48 "+5V" "+5V"
+ 3v3_Reg1 3
+ Conn3_mini1 1
+ 10u1 2
+}
+#End
