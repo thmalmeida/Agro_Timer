@@ -61,7 +61,7 @@ all: Agro_Timer.elf secondary-outputs
 Agro_Timer.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C++ Linker'
-	avr-g++ -Wl,-Map,Agro_Timer.map,--cref -Wl,--gc-sections -L"C:\Users\thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz" -mmcu=atmega8 -o "Agro_Timer.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-g++ -Wl,-Map,Agro_Timer.map,--cref -mrelax -Wl,--gc-sections -Wl,--gc-sections -L"C:\Users\thiago\Dropbox\Circuits\sourceCodes\arduino_core\8_8MHz" -mmcu=atmega8 -o "Agro_Timer.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,7 +73,7 @@ Agro_Timer.lss: Agro_Timer.elf
 
 Agro_Timer.hex: Agro_Timer.elf
 	@echo 'Create Flash image (ihex format)'
-	-avr-objcopy -R .eeprom -O ihex Agro_Timer.elf  "Agro_Timer.hex"
+	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Agro_Timer.elf  "Agro_Timer.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 

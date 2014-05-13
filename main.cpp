@@ -30,7 +30,8 @@
 // 0 - just power off automatically
 // 1 - power on and off automatically
 const uint8_t  mode = 0;
-const uint8_t debugMode = 0;
+//const uint8_t debugMode = 1;
+//#define debugMode
 int timeWorkingSet = 80;			// Min - Timer working
 int timeWaitingSet = (24*60-69);	// Min - Time to wait to recycle. 72 because 5% of delay of functions on ISR.
 
@@ -65,6 +66,9 @@ static volatile uint8_t seconds2 = 0;
 #define DEBOUNCE_TIME 25        /* time to wait while "de-bouncing" button */
 #define LOCK_INPUT_TIME 250     /* time to wait after a button press */
 
+#define k3_read (~PIND & 0b00000100)
+#define buttonRead	bit_is_set(PIND, 2)
+
 int button_is_pressed()
 {
 	/* the button is pressed when BUTTON_BIT is clear */
@@ -95,6 +99,11 @@ void summary()
 	lcd.setCursor(0,1);
 	sprintf(buffer,"%3.u:%.2u   %4.u:%.2u",minutes,seconds,minutes2,seconds2);
 	lcd.print(buffer);
+
+
+	lcd.setCursor(11,0);
+	sprintf(buffer,"%d",k3_read);
+	lcd.print(buffer);
 }
 #endif
 void turn_on()
@@ -106,9 +115,12 @@ void turn_on()
 	flag_status = 1;
 
 	// Triacs
-	PORTD |= (1<<3) | (1<<4);
+	PORTD |= (1<<3);
+	PORTD |= (1<<4);
 	_delay_ms(500);
 	PORTD &= ~(1<<4);
+
+	_delay_ms(3000);
 }
 void turn_off()
 {
@@ -121,7 +133,7 @@ void turn_off()
 	// Triacs
 	PORTD &= ~(1<<3);
 	PORTD &= ~(1<<4);
-//	_delay_ms(500);
+	_delay_ms(3000);
 //	PORTD |= (1<<3);
 }
 void led_red_on(){
@@ -240,6 +252,8 @@ int main(void) {
     	summary();
 		#endif
 
+
+
     	if(button_is_pressed())
     	{
     		if(state == DECREASING)
@@ -250,11 +264,11 @@ int main(void) {
     		}
     		else
     		{
-        		state = TURN_ON;
-    			#ifdef debugMode
-        		lcd.begin(16,2);
-    			#endif
-    		}
+    			state = TURN_ON;
+				#ifdef debugMode
+    			lcd.begin(16,2);
+				#endif
+			}
     	}
 
     	switch (state)
@@ -292,7 +306,6 @@ int main(void) {
     			timer1_disable();
     			state = WAITING;
     			turn_off();
-    			_delay_ms(3000);
     			break;
     	}
 	}
