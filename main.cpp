@@ -20,21 +20,9 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
-#include <string.h>
-#include <stdlib.h>
-#include <math.h>
-//#include <avr/eeprom.h>
-//#include <compat/deprecated.h>
+#include <compat/deprecated.h>
 #include <Arduino.h>
 
-
-// 0 - just power off automatically
-// 1 - power on and off automatically
-//const uint8_t  mode = 0;
-//const uint8_t debugMode = 1;
-//#define debugMode
-//int timeWorkingSet = 80;			// Min - Timer working
-//int timeWaitingSet = (24*60-69);	// Min - Time to wait to recycle. 72 because 5% of delay of functions on ISR.
 
 enum states01 {
 	redTime,
@@ -43,10 +31,11 @@ enum states01 {
 enum states01 periodo = redTime;
 
 enum{
+	waiting,
 	timerState,
 	automaticState
 };
-uint8_t stateMode = automaticState;
+uint8_t stateMode = waiting;
 
 enum{
 	WAITING,
@@ -58,16 +47,16 @@ uint8_t state = TURN_OFF;
 
 
 // season times
-uint8_t HourOn  = 21;
-uint8_t MinOn   = 30;
-
-uint8_t HourOff = 6;
-uint8_t MinOff  = 0;
+//uint8_t HourOn  = 21;
+//uint8_t MinOn   = 30;
+//
+//uint8_t HourOff = 6;
+//uint8_t MinOff  = 0;
 
 //uint8_t flag_02 = 0;
 //uint8_t flag_03 = 0;
 
-const uint8_t timeMinSet = 80;
+const uint8_t timeMinSet = 1;
 
 const uint16_t timeSecSet = 60*timeMinSet;
 volatile uint16_t timeCounter = 0;
@@ -77,8 +66,9 @@ volatile uint8_t timeCounterSync = 0;
 volatile uint8_t flag_timeSync = 0;
 
 const uint16_t timeMainSet = 6*60*60;
-volatile uint16_t timeMainCounter;
+volatile uint16_t timeMainCounter = 22000;
 
+uint8_t flag_firstAction = 0;
 
 // Sensor variables
 uint8_t levelSensorMLL, levelSensorLL;
@@ -90,7 +80,6 @@ char inChar;
 uint8_t flag_frameStart = 0;
 char sInstrRx[10], sInstr[10];
 uint8_t enableTranslate = 0;
-uint8_t rLength = 0;
 uint8_t enableDecode = 0;
 uint8_t opcode = 0;
 char aux[3];
@@ -98,15 +87,8 @@ char aux[3];
 
 uint8_t motorStatus = 0;
 
-//#define BUTTON_PORT PORTD       /* PORTx - register for button output */
-//#define BUTTON_PIN PIND         /* PINx - register for button input */
-//#define BUTTON_BIT PD2          /* bit for button input/output */
-//
-//#define DEBOUNCE_TIME 25        /* time to wait while "de-bouncing" button */
-//#define LOCK_INPUT_TIME 250     /* time to wait after a button press */
-
 #define button_read	(~PIND & 0b00000100)
-//#define buttonRead	bit_is_set(PIND, 2)
+//#define button_read	bit_is_clear(PIND, 2)
 
 void init_all()
 {
@@ -119,8 +101,9 @@ void init_all()
 	DDRD |= (1<<3) | (1<<4);
 	// set input for push button.
 	DDRD &= ~(1<<2);
+
 	/* turn on internal pull-up resistor for the switch */
-//	BUTTON_PORT |= _BV(BUTTON_BIT);
+	PORTD |= (1<<PD2);
 }
 void init_ADC()
 {
@@ -249,42 +232,6 @@ float calcIrms()
 	const int nPointsPerCycle_div = (int) Fs_div/f;						// Number of points per cycle;
 	const int nPoints_div = (int) nPointsPerCycle_div*numberOfCycles;	// Number of signal points.
 
-
-//	sprintf(buffer,"---- Signal Captured ----");
-//	Serial.println(buffer);
-//	Serial.println("");
-//
-//	Serial.print("Fs:");
-//	Serial.println(Fs);
-//	Serial.println("");
-//
-//	sprintf(buffer,", nPointsPerCycle:%d", nPointsPerCycle);
-//	Serial.println(buffer);
-//	Serial.println("");
-//
-//	sprintf(buffer,"nPoints:%d", nPoints);
-//	Serial.println(buffer);
-//	Serial.println("");
-//
-//
-//
-//	sprintf(buffer,"---- Signal Processed ----");
-//	Serial.println(buffer);
-//	Serial.println("");
-//
-//	Serial.print("Fs:");
-//	Serial.println(Fs_div);
-//	Serial.println("");
-//
-//	sprintf(buffer,", nPointsPerCycle:%d", nPointsPerCycle_div);
-//	Serial.println(buffer);
-//	Serial.println("");
-//
-//	sprintf(buffer,"nPoints:%d", nPoints_div);
-//	Serial.println(buffer);
-//	Serial.println("");
-
-
 	int *adcSamples = NULL;
 	adcSamples = (int*)malloc(nPoints_div * sizeof(int));
 
@@ -364,18 +311,6 @@ float calcIrms()
 	return I;
 }
 
-//int button_is_pressed()
-//{
-//	/* the button is pressed when BUTTON_BIT is clear */
-//	if (bit_is_clear(BUTTON_PIN, BUTTON_BIT))
-//	{
-//		_delay_ms(20);
-//		if (bit_is_clear(BUTTON_PIN, BUTTON_BIT))
-//			return 1;
-//	}
-//	return 0;
-//}
-
 void timeSyncSendCommand()
 {
 	Serial.println("$02;");
@@ -444,9 +379,6 @@ void sensorRead_Level()
 }
 void motorControl_bySensors()
 {
-	float Irms;
-	Irms = calcIrms();
-
 	sensorRead_Level();
 
 	if(levelSensorMLL)
@@ -470,40 +402,48 @@ void motorControl_bySensors()
 			motor_stop();
 		}
 	}
+
+	float Irms = calcIrms();
+
+	if(Irms>7.0)
+	{
+		stateMode = waiting;
+	}
 }
 void motorPeriodDecision()
 {
 	switch (periodo)
 	{
-	case redTime:
-		if(motorStatus)
-		{
-			motor_stop();
+		case redTime:
+			if(motorStatus)
+			{
+				motor_stop();
 
-			flag_MLL = 0;
-			flag_LL = 0;
-		}
-		break;
+				flag_MLL = 0;
+				flag_LL = 0;
+			}
+			break;
 
-	case greenTime:
-		motorControl_bySensors();
-		break;
+		case greenTime:
+			motorControl_bySensors();
+			break;
 	}
 }
 
 void periodVerify2()
 {
-	if (timeMainCounter < timeMainSet)
+	if (timeMainCounter <= timeMainSet)
 	{
 		periodo = greenTime;
-//		flag_02 = 1;
-//		flag_03 = 0;
+		if(!flag_firstAction)
+		{
+			flag_firstAction = 1;
+			stateMode = automaticState;
+		}
 	}
 	else
 	{
 		periodo = redTime;
-//		flag_02 = 0;
-//		flag_03 = 1;
 	}
 }
 
@@ -519,13 +459,14 @@ void refreshVariables()
 
 	if(button_read)
 	{
+		stateMode = timerState;
+
 		if(state == DECREASING)
 		{
 			state = TURN_OFF;
 		}
 		else
 		{
-			stateMode = timerState;
 			state = TURN_ON;
 		}
 	}
@@ -556,7 +497,7 @@ void processTimer()
 		case TURN_OFF:
 			motor_stop();
 			flag_timeOver = 0;
-			stateMode = automaticState;
+			stateMode = waiting;
 			state = WAITING;
 
 			break;
@@ -566,6 +507,10 @@ void processExecution()
 {
 	switch(stateMode)
 	{
+		case waiting:
+
+		break;
+
 		case timerState:
 			processTimer();
 			break;
@@ -704,7 +649,7 @@ ISR(TIMER1_OVF_vect)
 
 	if(state == DECREASING)
 	{
-		if(timeCounter > timeSecSet)
+		if(timeCounter == timeSecSet)
 		{
 			flag_timeOver = 1;
 		}
@@ -713,91 +658,34 @@ ISR(TIMER1_OVF_vect)
 			timeCounter++;
 		}
 	}
+
 	timeMainCounter++;
 }
 
-
-//ISR(INT0_vect)
-//{
-//	estado = 1;
-//	_delay_ms(200);
-//}
-//ISR(TIMER1_OVF_vect)
-//{
-//	if(flag_decreasing)
-//	{
-//		if(seconds == 0)
-//		{
-//			minutes--;
-//			seconds = 59;
-//		}
-//		else
-//			seconds--;
-//
-//		if((!seconds)&(!minutes))
-//		{
-//			flag_timeOver1 = 1;
-//		}
-//	}
-//
-//	if(mode)
-//	{
-//		if(seconds2 == 0)
-//		{
-//			minutes2--;
-//			seconds2 = 59;
-//		}
-//		else
-//			seconds2--;
-//
-//		if((!seconds2)&(!minutes2))
-//		{
-//			flag_timeOver2 = 1;
-//		}
-//	}
-//}
-
-int main(void) {
-
+int main(void)
+{
 	init();
 	init_all();
+	init_timer1();
 	init_ADC();
 	Serial.begin(9600);
 
 	motor_stop();
 
-    while(1)
+	while(1)
 	{
-    	// refresh variables
-    	refreshVariables();
+		// refresh variables
+		refreshVariables();
 
-    	// process mode
+		// process mode
     	processExecution();
 
-    	// UART communication
+		// UART communication
     	comm_Serial();
 
-    	// handle message
+		// handle message
     	handleMessage();
 	}
 
 	return 0;
 }
-
-
-
-
-//void ext_int0_enable(){
-//
-//	DDRD &= ~(1 << DDD2);     // Clear the PD2 pin
-//	// PD2 (INT0 pin) is now an input
-//
-//	PORTD |= (1 << PORTD2);    // turn On the Pull-up
-//	// PD0 is now an input with pull-up enabled
-//
-//
-//	MCUCR &= ~(1<<ISC01) | ~(1<<ISC00);    // set INT0 to trigger on ANY logic change
-//	GICR |= (1 << INT0);      // Turns on INT0
-//
-//	sei();                    // turn on interrupts
-//}
