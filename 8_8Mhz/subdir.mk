@@ -4,15 +4,12 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../LiquidCrystal.cpp \
 ../main.cpp 
 
 OBJS += \
-./LiquidCrystal.o \
 ./main.o 
 
 CPP_DEPS += \
-./LiquidCrystal.d \
 ./main.d 
 
 
