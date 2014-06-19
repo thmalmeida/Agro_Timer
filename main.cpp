@@ -242,9 +242,6 @@ int main(void) {
 	init_all();
 
 	turn_off();
-	_delay_ms(500);
-	turn_off();
-	_delay_ms(500);
 
     while(1)
 	{
